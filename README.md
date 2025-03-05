@@ -138,7 +138,6 @@
     <li>Combines predictions from Item-based, User-based, Content-based, SVD, and KNN approaches.</li>
 </ul>
 
-
 <h3>📌 Comparing Actual vs Predicted Ratings</h3>
 <ul>
     <li>Item-based filtering demonstrated the smallest overall error variance, making it the most reliable single approach.</li>
@@ -162,6 +161,20 @@
     <li>Tested the hybrid model on the test set and analyzed prediction accuracy.</li>
     <li>Generated personalized and explainable recommendations for users.</li>
 </ol>
+
+<h2>📚 <strong>Dataset</strong></h2>
+<p>
+    The project utilizes the <strong>Goodbooks-10k</strong> dataset available on Kaggle. This dataset contains 
+    information on 10,000 books from Goodreads, including book metadata (e.g., titles, authors, publication year) 
+    and approximately 6 million user ratings. It is an ideal resource for building and testing recommendation systems 
+    due to its comprehensive coverage and real-world applicability.
+</p>
+<ul>
+    <li><strong>Source:</strong> <a href="https://www.kaggle.com/datasets/zygmunt/goodbooks-10k">Goodbooks-10k on Kaggle</a></li>
+    <li><strong>Contents:</strong> Book metadata and user ratings</li>
+    <li><strong>Size:</strong> 10,000 books, ~6 million ratings</li>
+    <li><strong>License:</strong> CC0: Public Domain</li>
+</ul>
 
 <h2>📢 <strong>Conclusion</strong></h2>
 <p>
